@@ -7,7 +7,10 @@ import (
 
 func InitRouter() *gin.Engine {
 	g := gin.Default()
-	v1 := g.Group("/v1")
-	router.InitV1Router(v1)
+	// 确保 templates 目录存在，且 index.html 在该目录下
+	g.LoadHTMLGlob("templates/*")
+	g.Static("/static", "../static")
+	v1 := g.Group("v1")
+	router.InitV1(v1)
 	return g
 }
