@@ -200,5 +200,5 @@ go build -o aliyun-oss-server
 
 ## 参考文档
 - [阿里云 OSS 服务端签名直传并设置回调](https://help.aliyun.com/zh/oss/python-1?spm=a2c4g.11186623.help-menu-search-31815.d_1#3673e04109v8d)（核心规则参考，语言适配为 Go）  
-- [阿里云 OSS Go SDK 官方文档](https://help.aliyun.com/zh/oss/sdk/go-sdk)（SDK 调用细节）  
+- [阿里云 OSS Go SDK 官方文档](https://github.com/aliyun/aliyun-oss-go-sdk)（SDK 调用细节）  
 - [Gin 框架官方文档](https://gin-gonic.com/zh-cn/docs/)（API 接口开发参考）
