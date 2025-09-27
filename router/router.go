@@ -6,5 +6,5 @@ import (
 )
 
 func InitV1(g *gin.RouterGroup) {
-	g.GET("", handler.RootRequest)
+	g.GET("/", handler.RootRequest)
 }
