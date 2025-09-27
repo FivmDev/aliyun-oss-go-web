@@ -2,9 +2,14 @@ module aliyun-oss-go-web
 
 go 1.24
 
-require github.com/gin-gonic/gin v1.11.0
+require (
+	github.com/aliyun/credentials-go v1.4.7
+	github.com/gin-gonic/gin v1.11.0
+)
 
 require (
+	github.com/alibabacloud-go/debug v1.0.1 // indirect
+	github.com/alibabacloud-go/tea v1.2.2 // indirect
 	github.com/bytedance/sonic v1.14.0 // indirect
 	github.com/bytedance/sonic/loader v0.3.0 // indirect
 	github.com/cloudwego/base64x v0.1.6 // indirect
@@ -36,4 +41,5 @@ require (
 	golang.org/x/text v0.27.0 // indirect
 	golang.org/x/tools v0.34.0 // indirect
 	google.golang.org/protobuf v1.36.9 // indirect
+	gopkg.in/ini.v1 v1.67.0 // indirect
 )
